@@ -29,7 +29,7 @@ This project implements a simple Q-learning agent whose goal is to reach a treas
 
 - **ε-greedy strategy** for balancing exploration and exploitation. Epsilon dynamically changes based on episodes, in early episodes the agent randomly explores, and in later episodes, the agent exploits.
 
-  ```
+```
 EPSILON_DECAY = 0.995
 MIN_EPSILON = 0.05
 eps = 1.0
@@ -40,7 +40,7 @@ for ep in range(1, EPISODES + 1):
     ...
     eps = max(MIN_EPSILON, eps * EPSILON_DECAY)
 
-  ```
+```
   
 - **A\* search** as an informed search algorithm to compute an optimal reference path  
 
