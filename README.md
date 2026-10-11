@@ -45,3 +45,5 @@ for ep in range(1, EPISODES + 1):
 - **A\* search** as an informed search algorithm to compute an optimal reference path  
 
 ---
+
+<img src="assets/UI_demo.png" alt="Program UI Demo" width="700">
